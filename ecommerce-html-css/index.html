@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Luma Store - modern fashion ecommerce website built with HTML and CSS.">
+  <title>Luma Store | Modern Fashion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+  <div class="announcement">Free shipping on orders over ₹1,999 <span>•</span> Easy 7-day returns</div>
+
+  <header class="header">
+    <div class="container nav-wrap">
+      <a href="#" class="logo">luma<span>.</span></a>
+
+      <nav class="nav desktop-nav" aria-label="Primary navigation">
+        <a href="#new">New In</a>
+        <a href="#shop">Shop</a>
+        <a href="#collections">Collections</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#shop" aria-label="Search">⌕</a>
+        <a href="#shop" aria-label="Account">♙</a>
+        <a href="#shop" aria-label="Shopping bag" class="bag">▢<small>2</small></a>
+        <label for="menu-toggle" class="menu-button" aria-label="Open menu"><span></span><span></span><span></span></label>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <a href="#new">New In</a>
+      <a href="#shop">Shop</a>
+      <a href="#collections">Collections</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="new">
+      <div class="hero-content container">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">AUTUMN / WINTER 2026</p>
+          <h1 class="reveal delay-1">Style that feels<br><em>like you.</em></h1>
+          <p class="hero-text reveal delay-2">Thoughtfully designed essentials made for everyday moments, slow mornings and everything in between.</p>
+          <div class="hero-buttons reveal delay-3">
+            <a class="btn btn-dark" href="#shop">Shop collection <span>→</span></a>
+            <a class="text-link" href="#collections">Explore lookbook <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-image-wrap reveal delay-2">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=85" alt="Woman browsing a curated clothing collection">
+          <div class="floating-note"><strong>01</strong><span>Everyday<br>essentials</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-bar">
+      <div class="container trust-grid">
+        <div><strong>Free shipping</strong><span>On orders over ₹1,999</span></div>
+        <div><strong>Easy returns</strong><span>7-day hassle-free returns</span></div>
+        <div><strong>Secure checkout</strong><span>Your payment is protected</span></div>
+        <div><strong>Made with care</strong><span>Quality-first materials</span></div>
+      </div>
+    </section>
+
+    <section class="section container" id="collections">
+      <div class="section-head">
+        <div><p class="eyebrow">SHOP BY CATEGORY</p><h2>Find your everyday.</h2></div>
+        <a class="text-link" href="#shop">View all <span>→</span></a>
+      </div>
+      <div class="category-grid">
+        <a class="category-card large" href="#shop">
+          <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=85" alt="Women's fashion collection">
+          <div><span>01</span><h3>Women</h3><p>Explore collection →</p></div>
+        </a>
+        <a class="category-card" href="#shop">
+          <img src="https://images.unsplash.com/photo-1610652492500-ded49ceeb378?auto=format&fit=crop&w=800&q=85" alt="Men's fashion collection">
+          <div><span>02</span><h3>Men</h3><p>Explore collection →</p></div>
+        </a>
+        <a class="category-card" href="#shop">
+          <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=800&q=85" alt="Accessories collection">
+          <div><span>03</span><h3>Accessories</h3><p>Explore collection →</p></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section products-section" id="shop">
+      <div class="container">
+        <div class="section-head">
+          <div><p class="eyebrow">CURATED FOR YOU</p><h2>New arrivals.</h2></div>
+          <div class="filters"><a class="active" href="#shop">All</a><a href="#shop">Women</a><a href="#shop">Men</a><a href="#shop">Accessories</a></div>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-image"><span class="tag">NEW</span><button aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=85" alt="Linen overshirt"></div>
+            <div class="product-info"><div><h3>Relaxed Linen Overshirt</h3><p>Natural / Sand</p></div><strong>₹2,499</strong></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"><span class="tag">BESTSELLER</span><button aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=800&q=85" alt="Minimal black dress"></div>
+            <div class="product-info"><div><h3>Essential Midi Dress</h3><p>Black / XS–XL</p></div><strong>₹2,899</strong></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"><button aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=800&q=85" alt="Minimal knit sweater"></div>
+            <div class="product-info"><div><h3>Soft Knit Sweater</h3><p>Oat / Charcoal</p></div><strong>₹2,199</strong></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"><span class="tag sale">-20%</span><button aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=800&q=85" alt="Classic denim jeans"></div>
+            <div class="product-info"><div><h3>Classic Straight Denim</h3><p>Washed Blue / 28–36</p></div><strong>₹1,999 <del>₹2,499</del></strong></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="editorial container">
+      <div class="editorial-image"><img src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=1200&q=85" alt="Model wearing a neutral outfit"></div>
+      <div class="editorial-copy">
+        <p class="eyebrow">THE LUMA EDIT</p>
+        <h2>Less, but<br><em>better.</em></h2>
+        <p>We believe a great wardrobe starts with fewer, better pieces. Clean silhouettes, honest fabrics and colors that work together season after season.</p>
+        <a class="btn btn-outline" href="#shop">Discover the edit <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="sale-banner">
+      <div class="container sale-inner">
+        <div><p class="eyebrow">LIMITED TIME</p><h2>Good style.<br>Better prices.</h2></div>
+        <div class="sale-center"><strong>20<span>%</span></strong><p>OFF SELECTED<br>FALL ESSENTIALS</p></div>
+        <a class="btn btn-light" href="#shop">Shop sale <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="newsletter container" id="about">
+      <div><p class="eyebrow">STAY IN THE LOOP</p><h2>Notes from Luma.</h2><p>New drops, styling notes and early access. No noise, just the good stuff.</p></div>
+      <form class="newsletter-form" action="#" method="post"><label class="sr-only" for="email">Email address</label><input id="email" type="email" placeholder="Your email address" required><button type="submit">Subscribe →</button></form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><a href="#" class="logo footer-logo">luma<span>.</span></a><p>Modern essentials for everyday living.</p></div>
+      <div><h4>Shop</h4><a href="#shop">New arrivals</a><a href="#shop">Women</a><a href="#shop">Men</a><a href="#shop">Accessories</a></div>
+      <div><h4>Help</h4><a href="#">Shipping</a><a href="#">Returns</a><a href="#">Size guide</a><a href="#">Contact</a></div>
+      <div><h4>Follow</h4><a href="#">Instagram</a><a href="#">Pinterest</a><a href="#">Facebook</a><a href="#">YouTube</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Luma Store. All rights reserved.</span><span>Privacy · Terms</span></div>
+  </footer>
+</body>
+</html>
